@@ -33,5 +33,5 @@ module "lambda_function" {
   runtime       = "python${var.python_version}"
 
   create_package         = false
-  local_existing_package = "./package.zip"
+  local_existing_package = "../package.zip"
 }
